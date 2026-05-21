@@ -8,9 +8,36 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: one-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 3298213023
+  numberOfFiles: 5
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
+    schemaKey: SpeciesType
+  variableMeasured:
+  - OnePhotonSeries
+  - OpticalChannel
+  - ElectrodeGroup
+  - ImagingPlane
+  - ElectricalSeries
 citation: 3D µEFPocket for Multimodal Communications with Brain Organoids (2026).
   (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001850/draft
 contributor:
