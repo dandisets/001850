@@ -3,7 +3,8 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
-about: []
+about:
+- {}
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -46,8 +47,8 @@ assetsSummary:
   - ElectrodeGroup
   - ImagingPlane
   - ElectricalSeries
-citation: Wang, Yihang (2026) 3D µEFPocket for Multimodal Communications with Brain
-  Organoids (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001850/draft
+citation: 3D µEFPocket for Multimodal Communications with Brain Organoids (2026).
+  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001850/draft
 contributor:
 - affiliation: []
   email: miguelcu@unc.edu
@@ -64,7 +65,7 @@ contributor:
   - dcite:Author
   schemaKey: Person
 - email: yihang98@ad.unc.edu
-  includeInCitation: true
+  includeInCitation: false
   name: Wang, Yihang
   roleName:
   - dcite:Author
@@ -98,7 +99,8 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001850/versions/draft/assets/
 name: 3D µEFPocket for Multimodal Communications with Brain Organoids
-relatedResource: []
+relatedResource:
+- {}
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
