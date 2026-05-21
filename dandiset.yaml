@@ -7,6 +7,14 @@ about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: 'This work was supported by NSF CAREER program (award # 2443105),
+  National Institute of Biomedical Imaging and Bioengineering at the NIH grant 1R01EB034332,
+  and Institute of Convergent Sciences at UNC Chapel Hill at AGILE grant. This work
+  was performed in part at the Chapel Hill Analytical and Nanofabrication Laboratory
+  (CHANL), and Duke University Shared Materials Instrumentation Facility (SMIF), members
+  of the North Carolina Research Triangle Nanotechnology Network (RTNN), which is
+  supported by the National Science Foundation, Grant ECCS-2025064, as part of the
+  National Nanotechnology Coordinated Infrastructure (NNCI).'
 assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
@@ -24,8 +32,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 13384882080
-  numberOfFiles: 13
+  numberOfBytes: 14434105862
+  numberOfFiles: 14
   numberOfSubjects: 1
   schemaKey: AssetsSummary
   species:
@@ -38,8 +46,8 @@ assetsSummary:
   - ElectrodeGroup
   - ImagingPlane
   - ElectricalSeries
-citation: 3D µEFPocket for Multimodal Communications with Brain Organoids (2026).
-  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001850/draft
+citation: Wang, Yihang (2026) 3D µEFPocket for Multimodal Communications with Brain
+  Organoids (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001850/draft
 contributor:
 - affiliation: []
   email: miguelcu@unc.edu
@@ -55,8 +63,33 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
+- email: yihang98@ad.unc.edu
+  includeInCitation: true
+  name: Wang, Yihang
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  schemaKey: Person
 dateCreated: '2026-05-20T17:45:23.608302+00:00'
-description: 3D µEFPocket spatially and temporal patterned stimulation of Brain Organoids
+description: Human brain organoids are powerful three-dimensional models for studying
+  neural development, disease mechanisms, and pharmacological responses, but precise
+  spatiotemporal chemical modulation and activity recording within intact organoids
+  and in a simultaneous fashion is difficult due to their three-dimensional (3D) complexities.
+  Here, we introduce the microElectroFluidicPocket (µEFPocket), a conformal, ultrathin
+  microfluidic 3D biointerface that integrates microscale spatiotemporal control of
+  chemical and electrical stimulation in human cortical organoids with simultaneous
+  optical and electrical readout. Fabricated entirely from parylene C using standard
+  wafer-scale deposition, photolithography, and etching, µEFPockets form integrated,
+  mechanically compliant architectures that wrap around spherical organoids without
+  attachment factors, enabling repeated use of the same organoid. Engineered and independently
+  addressable microchannels enable localized, time-locked delivery of neurotransmitters
+  with hundreds-micron spatial resolution and second-level temporal control while
+  preserving global culture conditions. Using glutamate delivery or electrical stimulation
+  of GCaMP-expressing human cortical organoids, we demonstrate spatially localized
+  calcium responses at regional and single-neuron resolution, revealing network propagation
+  and stimulus-dependent adaptation. This scalable platform provides a foundation
+  for spatially patterned pharmacology, multimodal biointerfaces, and closed-loop
+  functional assays in organoids.
 ethicsApproval: []
 id: DANDI:001850/draft
 identifier: DANDI:001850
