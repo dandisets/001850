@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -19,9 +20,17 @@ contributor:
   name: Cuevas, Miguel
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
+  schemaKey: Person
+- email: mayayin0834@gmail.com
+  includeInCitation: false
+  name: Maya Yin
+  roleName:
+  - dcite:Author
   schemaKey: Person
 dateCreated: '2026-05-20T17:45:23.608302+00:00'
 description: 3D µEFPocket spatially and temporal patterned stimulation of Brain Organoids
+ethicsApproval: []
 id: DANDI:001850/draft
 identifier: DANDI:001850
 license:
@@ -29,8 +38,10 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001850/versions/draft/assets/
 name: 3D µEFPocket for Multimodal Communications with Brain Organoids
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/001850/draft
 version: draft
+wasGeneratedBy: []
